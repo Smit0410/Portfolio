@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#081b29;
+
+}
+body{
+    background-color: rgb(210, 219, 208);
+    
+}
+.all_link{
+    /* background-color: red; */
+    height:72px;
+    padding: 20px 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.all_link a{
+    text-decoration:none;
+    color: #d2dbd0
+}
+
+a{
+    /* padding-left: 35px;  */
+    color: rgb(210, 219, 208);
+}
+
+a:hover{
+    font-size: large;
+    transition: 0.5s;
+    
+}
+
+.link a{
+    margin-left: 35px; 
+    color: #d2dbd0;
+}
+
+#edu-home{
+    background-color: rgb(210, 219, 208);
+}
+
+#edu-heading{
+    background-color: #081b29;
+    /* border: 2px solid red; */
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#edu-heading h1{
+    color:#fff;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#main-edu-details{
+
+    margin:10px auto;
+    width: 900px;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 280px;
+}
+
+#main-edu-details #stander-detail{
+    
+    border:2px solid #1c1c1c;
+    border-radius: 6px;
+    width: 30%;
+    height: 100%;
+}
+
+#main-edu-details #stander-detail h2{
+    color: #081b29;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+hr{
+    width: 95%;
+}
+
+#main-edu-details #stander-detail #stander-scchool{
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+#main-edu-details #stander-detail #stander-scchool h4{
+    font-size: 25px;
+    color:#081b29;
+}
+
+#main-edu-details #stander-detail #stander-scchool p{
+    padding: 5px 0;
+}
+
+#main-edu-details #stander-detail #stander-percenteg{
+    margin-top: 15px;
+    padding-left: 5px;
+
+}
+
+#main-edu-details #stander-detail #stander-percenteg h4{
+    font-size: 25px;
+    color:#081b29;
+
+}
+
+#main-edu-details #stander-detail #stander-percenteg p{
+    padding: 5px 0;
+}
+
+#main-edu-details #stander-detail #lorem-edu{
+    margin-top: 15px;
+    padding-left: 5px;
+
+}

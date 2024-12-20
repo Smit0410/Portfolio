@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(210, 219, 208);
+    
+    /* color:#fff; */
+    /* height: 100%; */
+}
+
+header{
+    background-color:#081b29;
+}
+
+.all_link{
+    /* background-color: red; */
+    height:72px;
+    padding: 20px 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.all_link a{
+    text-decoration:none;
+    color: #d2dbd0
+}
+
+header a{
+    /* padding-left: 35px;  */
+    color: rgb(210, 219, 208);
+}
+
+a:hover{
+    font-size: large;
+    transition: 0.5s;
+    
+}
+
+.link a{
+    margin-left: 35px; 
+    color: rgb(210, 219, 208);
+}
+
+.contect-heading{
+    background-color: #081b29;
+    /* border: 2px solid red; */
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contect-heading h1{
+    color:#fff;
+    /* font-size: 50px;
+    font-weight: 700;
+    color:aqua;*/
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.home{
+    /* border: 2px solid blue; */
+    height: 100%;
+    background-color: rgb(210, 219, 208);
+
+}
+
+.main-contect-detail{
+    /* border: 2px solid green; */
+    height: 100%;
+    max-height: 100%;
+    background-color: rgb(210, 219, 208);
+}
+
+.conversation h2{
+    /* border:2px solid aqua; */
+    font-size: 50px;
+    font-weight: 700;
+    color: #081b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-part{
+    /* border:2px solid aliceblue; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-part .ask-contect-my{
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+
+.two-part .ask-contect-my h3{
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: xx-large;
+    color: #081b29;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.two-part .ask-contect-my .p-contect p{
+    /* border: 2px solid grey; */
+    font-weight: 500;
+    font-size: larger;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 100px;
+    color: black;
+}
+
+.two-part .my-detail{
+    /* border:2px solid pink; */
+    margin-left: 100px;
+    color: #081b29;
+    text-decoration: none;
+}
+
+.two-part .my-detail p{
+    text-decoration: underline;
+
+    font-weight: 400;
+    font-size: x-large;
+    margin-top: 25px;
+    color: #081b29;
+}
+
+.two-part .my-detail-a{
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.two-part .input-contect{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+    padding: 0 100px;
+}
+
+.two-part .input-contect p{
+    color:#081b29;
+    margin-top: 15px;
+    font-size: xx-large;
+    font-weight:400 ;
+    text-decoration:underline;
+}
+
+.contect-name-box{
+    margin-top: 25px;
+}
+
+.two-part .input-contect .contect-name-box-input input{
+    margin-bottom:10px ;
+    width: 100%;
+    max-width: 80%;
+    font-size: large;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+}
+
+.two-part .input-contect .contect-massege-box input{
+    width: 100%;
+    max-width: 80%;
+    height: 60px;
+    border: none;
+    font-size: large;
+    border-radius: 6px
+}
+
+.two-part .input-contect .massege-submit-button button{
+    border: none;
+    border-radius: 6px;
+    background-color: #081b29;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 60px;
+    height: 40px;
+}

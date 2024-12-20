@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#081b29;
+}
+
+.all_link{
+    /* background-color: red; */
+    height:72px;
+    padding: 20px 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.all_link a{
+    text-decoration:none;
+    color: #d2dbd0
+}
+
+a{
+    /* padding-left: 35px;  */
+    color: rgb(210, 219, 208);
+}
+
+a:hover{
+    font-size: large;
+    transition: 0.5s;
+    
+}
+
+.link a{
+    margin-left: 35px; 
+    color: rgb(210, 219, 208);
+}
+
+body{
+    background-color: #d2dbd0;
+}
+
+.skill-heading{
+    background-color: #081b29;
+    /* border: 2px solid red; */
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-heading h1{
+    color:#fff;
+    /* font-size: 50px;
+    font-weight: 700;
+    color:aqua;*/
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.input-skill{
+    /* border: 2px solid green; */
+    height: 100%;
+    padding:20px ;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: auto;
+}
+
+.html-english{
+    width: 50%;
+    line-height: 40px;
+}
+
+.metrix-fco{
+    width: 50%;
+    line-height: 40px;
+
+}
+
+/* .html-css{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+} */
+
+.red-blue{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%;
+}
+
+.red-blue .blue{
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 98%;
+    height: 100%;
+    background-color: blue;
+}
+
+.red-blue-css{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%
+}
+
+.red-blue-css .blue-css{
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+}
+
+/* .c-english{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+} */
+
+.red-blue-c{
+    border: 3px solid red;
+    border-radius: 8px;
+    width:80%
+}
+
+.red-blue-c .blue-c{
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+
+.red-blue-english{
+    border: 3px solid red;
+    border-radius: 8px;
+    width:80%
+}
+
+.red-blue-english .blue-english{
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    background-color: blue;
+}
+
+/* .metrix-ss{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+} */
+
+.red-blue-metrix{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%
+}
+
+.red-blue-metrix .blue-metrix{
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+}
+
+.red-blue-s-s{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%
+}
+
+.red-blue-s-s .blue-s-s{
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+}
+
+/* .iks-fco{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+} */
+
+.red-blue-i-k-s{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%;
+}
+
+.red-blue-i-k-s .blue-i-k-s{
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 65%;
+    height: 100%;
+    background-color: blue;
+}
+
+.red-blue-fco{
+    border: 3px solid red;
+    border-radius: 10px;
+    width:80%;   
+}
+
+.red-blue-fco .blue-fco{
+    border: 3px solid blue;
+    border-radius: 8px;
+    width: 65%;
+    height: 100%;
+    background-color: blue;
+}

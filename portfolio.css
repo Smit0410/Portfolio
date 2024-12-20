@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#081b29;
+    color:#fff;
+}
+
+.all_link{
+    /* background-color: red; */
+    height:72px;
+    padding: 20px 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.all_link a{
+    text-decoration:none;
+    color: #d2dbd0
+}
+
+a{
+    /* padding-left: 35px;  */
+    color: rgb(210, 219, 208);
+}
+
+a:hover{
+    font-size: large;
+    transition: 0.5s;
+    
+}
+
+.link a{
+    margin-left: 35px; 
+    color: rgb(210, 219, 208);
+}
+
+.home{
+    
+    color: #fff;
+    padding: 0 10%;
+    display:flex ;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.home-content{
+    /* background-color: yellow; */
+    max-width:600px;
+}
+
+.home-content h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.home-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    color:aqua;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 20px 0 40px;
+
+}
+
+.home-content .btn-link{
+    display: flex;
+    justify-content: space-between;
+    width:345px ;
+    height:50px ;
+    /* background-color:yellowgreen; */
+}
+
+.btn-link a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    /* background-color: #00abf0; */
+    border: 2px solid #00abf0;
+    border-color: #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color:#00abf0 ;
+    text-decoration:none;
+    font-weight: 600;
+    letter-spacing:1px;
+
+}
+
+.btn-link a:hover{
+    font-size:x-large;
+    transition: 0.5s;
+    
+}
+
+.photo {
+    height: 100%;
+    width: 50%;
+    
+}
+
+.photo img{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background: transparent;
+    background-position: center center;
+    object-fit: cover;
+    border-radius: 290px;
+    
+    /* position: relative; */
+    
+}
+
+.photo:hover{
+    /* position: absolute; */
+    background: transparent;
+    background-position: center center;
+    transition: 3s;
+    height: 80%;
+    width: 80%;
+    
+}
